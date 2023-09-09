@@ -1,5 +1,8 @@
 require ( './root.js' );
 
+var a, b;
+
+
 function add(a, b) {
   return a + b;
 }
@@ -31,7 +34,6 @@ function makeInt(string) {
 
 function preserveDecimal(string) {
   return parseFloat (string, 10)
-}
 }
 
 describe('basic math functions', function () {
